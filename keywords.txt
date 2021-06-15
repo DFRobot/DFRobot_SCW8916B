@@ -1,0 +1,64 @@
+#######################################
+# Syntax Map For DFRobot_SCT80S16B
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_Nilometer	KEYWORD1
+DFRobot_SCW8916B_IO	KEYWORD1
+DFRobot_SCW8916B_UART	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+detectWater	KEYWORD2
+getCalibrationMode	KEYWORD2
+getCalibModeDescription	KEYWORD2
+getSensitivity	KEYWORD2
+flush	KEYWORD2
+checkCalibrationState	KEYWORD2
+selfCheck	KEYWORD2
+calibration	KEYWORD2
+setSensitivityLevel	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+eLevelDetecteMode	LITERAL1
+eUARTDetecteMode	LITERAL1
+eDetecteMode_t	LITERAL1
+eSensitivityLevel0	LITERAL1
+eSensitivityLevel1	LITERAL1
+eSensitivityLevel2	LITERAL1
+eSensitivityLevel3	LITERAL1
+eSensitivityLevel4	LITERAL1
+eSensitivityLevel5	LITERAL1
+eSensitivityLevel6	LITERAL1
+eSensitivityLevel7	LITERAL1
+eSensitivityLevel_t	LITERAL1
+sSelfCheckRslt_t	LITERAL1
+outs	LITERAL1
+topt	LITERAL1
+chan	LITERAL1
+sen	LITERAL1
+value	LITERAL1
+pad	LITERAL1
+ch1	LITERAL1
+ch2	LITERAL1
+ch3	LITERAL1
+ch4	LITERAL1
+uCheckRslt_t	LITERAL1
+CALIBRATION_MODE_LOWER_AND_UPPER_LEVEL	LITERAL1
+CALIBRATION_MODE_LOWER_LEVEL	LITERAL1
+ERR_CALIBRATION_CODE	LITERAL1
